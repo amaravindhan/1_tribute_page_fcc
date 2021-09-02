@@ -37,7 +37,7 @@ body {
 }
 
 #img-div {
-    background-color: var(--primary-color1-lighter, #b8474d);
+    background-color: var(--primary-color1-lighter, #edc4c6);
     padding: 30px 0 10px 0;
     border-radius: 2px;
 }
@@ -64,18 +64,44 @@ body {
 
 #timeline-text {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    padding: 25px 0px;
 }
 
 #timeline-list {
-    display: flex;
-    margin: auto;
-    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
     list-style: square;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.link {
+    color: var(--primary-color1, #b8474d);
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:focus,
+.link:hover {
+    color: var(--primary-color2, #47b8b2);
+}
+
+#principle-quoto {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-style: italic;
+    text-align: left;
+}
+
+#principle {
+    text-align: right;
 }
 
 #tribute-link {
-    color: var(--primary-color1);
+    color: var(--primary-color1, #b8474d);
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
@@ -83,5 +109,15 @@ body {
 
 #tribute-link:focus,
 #tribute-link:hover {
-    color: var(--primary-color2);
+    color: var(--primary-color2, #47b8b2);
+}
+
+footer {
+    color: var(--primary-color2-darker, #2e3e3e);
+}
+
+@media (max-width:757px) {
+    #image {
+        border: 0px solid var(--text-color, #fffefe);
+    }
 }
