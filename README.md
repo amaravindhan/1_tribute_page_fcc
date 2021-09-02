@@ -1,1 +1,3 @@
-# 1_tribute_page_fcc
+# Responsive Web Design Project - Tribute Page
+
+Preview link - https://codepen.io/amaravindhan/full/XWgXejq
